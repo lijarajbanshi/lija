@@ -1,0 +1,132 @@
+body {
+    background-color: #e5ddff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+
+/* Heading */
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h1 span {
+    color: #6845ff;
+    font-style: italic;
+}
+
+
+/* Card */
+
+.card {
+    width: 300px;
+    margin: auto;
+    background-color: white;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    text-align: left;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Image */
+
+.card img {
+    width: 100%;
+    height: 150px;
+
+    object-fit: cover;
+}
+
+
+/* Card content */
+
+.card-content {
+    padding: 15px;
+}
+
+
+/* Time */
+
+.time {
+    font-size: 12px;
+    color: #999;
+}
+
+
+/* Card heading */
+
+h2 {
+    color: #6845ff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+/* Description */
+
+.description {
+    color: #888;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+/* Bottom of card */
+
+.bottom {
+    border-top: 1px solid #ddd;
+
+    padding-top: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+.bottom a {
+    color: #6845ff;
+    text-decoration: none;
+}
+
+
+.bottom span {
+    color: #6845ff;
+}
+
+
+/* Icons */
+
+.icons {
+    margin-top: 35px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 50px;
+
+    font-size: 20px;
+}
+body{
+    background-color: red;
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: blue;
+    }
+}
+@media screen and (max-width:500px){
+    body{
+        background-color: black;
+    }
+}

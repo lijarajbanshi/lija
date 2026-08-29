@@ -1,0 +1,258 @@
+body {
+    background-color: #e5ddff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+
+/* Main heading */
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #6845ff;
+}
+
+
+/* Navigation */
+
+.tabs {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tabs a {
+    color: #6845ff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+.tabs a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections */
+
+section {
+    width: 70%;
+    margin: 25px auto;
+    background-color: white;
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    text-align: left;
+}
+
+
+/* Section headings */
+
+h2 {
+    color: #6845ff;
+    font-size: 24px;
+    font-weight: normal;
+
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+
+/* Profile */
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 170px;
+    height: 170px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #e5ddff;
+
+    margin: 15px;
+}
+
+#profile p {
+    color: #777;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* Skills */
+
+#skills ul {
+    padding: 0;
+    list-style: none;
+}
+
+#skills li {
+    background-color: #f5f2ff;
+
+    margin: 10px 0;
+    padding: 10px;
+
+    border-radius: 6px;
+
+    color: #555;
+}
+
+#skills input {
+    margin-right: 10px;
+}
+
+
+/* Education table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+tr:first-child {
+    background-color: #6845ff;
+    color: white;
+}
+
+
+/* Experience */
+
+#experience h3 {
+    color: #6845ff;
+}
+
+#experience li {
+    margin-bottom: 10px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* Contact form */
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    padding: 10px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    margin-top: 5px;
+
+    box-sizing: border-box;
+}
+
+#contact input[type="text"],
+#contact input[type="email"] {
+    width: 100%;
+}
+
+#contact textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+
+/* Send button */
+
+#contact input[type="submit"] {
+    background-color: #6845ff;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+
+    width: 100px;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #5030d6;
+}
+
+
+/* Links */
+
+#contact a {
+    color: #6845ff;
+    text-decoration: none;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 800px) {
+
+    body {
+        padding: 15px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .tabs a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    .tabs a {
+        font-size: 14px;
+    }
+}
